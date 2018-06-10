@@ -1,7 +1,6 @@
 #!/bin/bash -xve
 
 #required packages
-yum install -y openssl-devel python-devel libffi-devel
 pip install 'requests[security]'
 pip install catkin_pkg
 pip install empy
