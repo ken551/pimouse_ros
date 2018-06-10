@@ -1,8 +1,7 @@
 #!/bin/bash -xve
 
 #required packages
-pip install --upgrade pip
-pip install 'requests[security]'
+pip install urllib3[secure]
 pip install catkin_pkg
 pip install empy
 pip install pyyaml
